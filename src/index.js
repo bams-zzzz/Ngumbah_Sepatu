@@ -9,8 +9,12 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+// Default route
 app.get("/", (req, res) => res.send("Shoe Laundry API is Running!"));
+
+// API routes
 app.use("/api/sepatu", sepatuRoutes);
 
-const port = process.env.PORT || 3000;
-app.listen(port, () => console.log(`Server berjalan di port ${port}`));
+// ⚠️ Jangan pakai app.listen di Vercel!
+// Ekspor app sebagai handler
+export default app;
