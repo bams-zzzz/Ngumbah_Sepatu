@@ -105,7 +105,7 @@ Dengan adanya API Cuci Sepatu REST ini, manajemen data cucian sepatu menjadi leb
 [
   {
     "id": 1,
-    "nama": "Converse Chuck Taylor",
+    "nama": "Agus",
     "status": "Selesai",
     "tanggalMasuk": "2025-10-01",
     "tanggalSelesai": "2025-10-03"
@@ -121,8 +121,8 @@ Dengan adanya API Cuci Sepatu REST ini, manajemen data cucian sepatu menjadi leb
 
 ```json
 {
-  "nama": "Nike Air Max",
-  "jenis_sepatu": "Sneakers",
+  "nama": "Joko",
+  "jenis_sepatu": "Nike Air Max",
   "status": "Sedang Dicuci",
   "tanggalMasuk": "2025-10-08",
   "tanggalSelesai": null
@@ -208,5 +208,6 @@ vercel.json
 ```
 
 ---
+
 
 
