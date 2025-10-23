@@ -34,12 +34,12 @@ Contoh struktur data sepatu di database Supabase:
 
 ```json
 {
-  "id": 1,
-  "nama": "Nike Air Force 1",
-  "jenis_sepatu": "Sneakers",
-  "status": "Sedang Dicuci",
-  "tanggalMasuk": "2025-10-08",
-  "tanggalSelesai": null
+  "id": 5,
+  "nama": "Budi",
+  "status": "Proses",
+  "tanggalMasuk": "2025-10-26",
+  "tanggalSelesai": null,
+  "jenis_sepatu": "Sneakers"
 }
 ```
 
@@ -208,4 +208,5 @@ vercel.json
 ```
 
 ---
+
 
