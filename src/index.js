@@ -15,6 +15,5 @@ app.get("/", (req, res) => res.send("Shoe Laundry API is Running!"));
 // API routes
 app.use("/api/sepatu", sepatuRoutes);
 
-// ⚠️ Jangan pakai app.listen di Vercel!
-// Ekspor app sebagai handler
+
 export default app;
